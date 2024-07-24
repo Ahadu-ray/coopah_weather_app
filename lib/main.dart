@@ -13,6 +13,7 @@ Future<void> main() async {
   runApp(const MyApp());
 }
 
+// run every method that need instantiation prior to the app starting
 Future<void> _startUpMethods() async {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(

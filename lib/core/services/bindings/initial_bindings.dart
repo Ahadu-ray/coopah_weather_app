@@ -5,6 +5,7 @@ import 'package:coopah_weather_app/core/services/api/api_client.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
+// determines singletons that are supposed to run before the app starts
 class InitialBindings {
   final GetIt getIt;
 

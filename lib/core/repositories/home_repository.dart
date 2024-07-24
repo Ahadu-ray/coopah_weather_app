@@ -21,7 +21,6 @@ class HomeRepository extends IHomeRepository {
       return WeatherResponse.fromJson(response);
     } catch (e) {
       outlog(e);
-      // TODO: add toast
       rethrow;
     }
   }
